@@ -1,0 +1,12 @@
+html {
+    background-color: #1E373A;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+#winningFish {
+    margin-left: 350px;
+}
