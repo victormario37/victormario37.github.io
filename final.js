@@ -1,7 +1,7 @@
 var image = document.getElementById("redStopLight");
 var crownFish = document.getElementById("crown");
 var bettaFish = document.getElementById("betta");
-var winningFish = document.getElementById("WinningFish");
+var winningFish = document.getElementById("winningFish");
 winningFish.style.display = 'none';
 var number = Math.random() * 100;
 var number2 = Math.random() * 100;
@@ -41,7 +41,7 @@ function startRace()
         }
         else if (bettaDistance >= width - 150)
         {           
-            document.getElementById("winningCarID").src = "Images/redCar.png";
+            document.getElementById("winningFishID").src = "betta.png";
             winningFish.style.display = 'inline';
             window.alert("The Betta fish won!");                  
         }
