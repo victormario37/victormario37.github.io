@@ -1,4 +1,4 @@
-var image = document.getElementById("redStopLight");
+var image = document.getElementById("redLight");
 var crownFish = document.getElementById("crown");
 var bettaFish = document.getElementById("betta");
 var winningFish = document.getElementById("winningFish");
